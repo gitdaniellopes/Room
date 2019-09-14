@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="8dp"
+    tools:context=".Ui.FormularioActivity" >
+
+    <EditText
+        android:id="@+id/campo_nome_produto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_margin="8dp"
+        android:padding="10dp"
+        android:inputType="textPersonName"
+        android:hint="Produto" />
+
+    <EditText
+        android:id="@+id/campo_preco_produto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_margin="8dp"
+        android:padding="10dp"
+        android:inputType="numberDecimal"
+        android:hint="Preço" />
+
+    <EditText
+        android:id="@+id/campo_quantidade_produto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_margin="8dp"
+        android:padding="10dp"
+        android:inputType="number"
+        android:hint="Quantidade" />
+
+    <Button
+        android:id="@+id/botao_salvar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"
+        android:padding="10dp"
+        android:text="Salvar" />
+</LinearLayout>
